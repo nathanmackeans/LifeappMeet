@@ -13,7 +13,7 @@ import {
 export const FrequentlyAskedQuestions: React.VoidFunctionComponent = () => {
   return (
     <>
-      <Text styles={font16pxStyle}>Frequently asked questions</Text>
+<!--       <Text styles={font16pxStyle}>Frequently asked questions</Text>
       <Stack styles={btnStackStyles}>
         <Link tabIndex={0} target="_blank" href="https://aka.ms/virtual-appointments-sample-bookings">
           <Stack horizontal>
@@ -27,7 +27,7 @@ export const FrequentlyAskedQuestions: React.VoidFunctionComponent = () => {
             </StackItem>
           </Stack>
         </Link>
-      </Stack>
+      </Stack> -->
     </>
   );
 };
