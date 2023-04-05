@@ -1,24 +1,22 @@
 {
-  "communicationServicesConnectionString": "endpoint=your_endpoint;accesskey=secret",
-  "microsoftBookingsUrl": "https://microsoftbookings.azurewebsites.net/?organization=financialservices&UICulture=en-US",
+  "communicationServicesConnectionString": "endpoint=https://lifeappvirtualmeeting.communication.azure.com/;accesskey=we8BT5QhVDxVuzndjaX+kAhhPtKu1LQqY2uUGaOwDOti8CG+YPI+WAoq8Rwk+HPmkuFcBBByyBdkZljGY2yTcg==",
+  "microsoftBookingsUrl": "https://outlook.office365.com/owa/calendar/Lifeapp@lifeappdotme.onmicrosoft.com/bookings/",
   "chatEnabled": true,
   "screenShareEnabled": true,
-  "companyName": "Lamna Healthcare",
-  "colorPalette": "#0078d4",
-  "waitingTitle": "Thank you for choosing Lamna Healthcare",
-  "waitingSubtitle": "Your clinician is joining the meeting",
-  "logoUrl": "",
+  "companyName": "Lifeapp Health",
+  "colorPalette": "#0B70AF",
+  "waitingTitle": "Thank you for choosing Lifeapp",
+  "waitingSubtitle": "Your agent will be with you shortly",
+  "logoUrl": "https://res.cloudinary.com/dkkavczbt/image/upload/v1673603060/lifeapp_dark_mode_bvr7ll.png",
   "postCall": {
     "survey": {
-      "type": "onequestionpoll",
+      "type": "msforms",
       "options": {
-        "title": "Tell us how we did",
-        "prompt": "How satisfied are you with this virtual appointment's audio and video quality?",
-        "pollType": "likeOrDislike",
-        "saveButtonText": "Continue"
+        "surveyUrl": "https://forms.office.com/r/QJZz0031LM"
       }
     }
-  },
+  }
+},
   "cosmosDb": {
     "connectionString": "Connection string of your Cosmos DB account",
     "dbName": "Name of the Cosmos Database"
