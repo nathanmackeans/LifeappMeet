@@ -17,8 +17,3 @@
     }
   }
 },
-  "cosmosDb": {
-    "connectionString": "Connection string of your Cosmos DB account",
-    "dbName": "Name of the Cosmos Database"
-  }
-}
