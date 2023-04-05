@@ -13,7 +13,7 @@ import {
 const LearnMore = (): JSX.Element => {
   return (
     <>
-      <Text styles={font16pxStyle}>Learn more about Azure Communication Services</Text>
+<!--       <Text styles={font16pxStyle}>Learn more about Azure Communication Services</Text>
       <LearnMoreItem
         headerText={'Azure Communication Services virtual appointments'}
         headerLink={'https://learn.microsoft.com/azure/communication-services/tutorials/virtual-visits'}
@@ -36,7 +36,7 @@ const LearnMore = (): JSX.Element => {
         description={
           'Get Started with Azure Communication Services UI Library to quickly integrate communication experiences into your applications. In this quickstart, learn how to integrate UI Library composites into an application and set up...'
         }
-      />
+      /> -->
     </>
   );
 };
